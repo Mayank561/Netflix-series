@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  font-family: "ubuntu";
+}
+
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border: 1px solid transparent;
+  box-shadow: 31px 30px 45px black;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 400px;
+  border-radius: 10px;
+}
+.img {
+  max-width: 100%;
+}
+
+.super_rating {
+  background-color: green;
+}
+.less_rating {
+  background-color: red;
+}
+
+/* button {
+  border: 1px solid black;
+  min-width: 100px;
+  border-radius: 50px;
+  padding: 10px 10px 10px 10px;
+  font-size: 0.7rem;
+}
+button:hover {
+  background-color: green;
+  color: white;
+  font-size: 0.9rem;
+} */
